@@ -40,7 +40,7 @@ CATEGORY LOGIC - A MESSAGE CAN BE MULTIPLE:
    - "Pizza makes me bloated" = trigger + dietary
    - "I ate spicy food and got diarrhea" = trigger + dietary
    - "Spaghetti triggers bloating" = trigger + dietary
-   - Summary: "[Food] may trigger [symptom] - watch out"
+   - Summary: "[Food] may trigger [symptom] - Take Caution!"
    - MUST extract symptom to extractedSymptom field
 
 3. symptom: ONLY if describing feeling WITHOUT mentioning cause

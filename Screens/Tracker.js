@@ -120,7 +120,7 @@ Write a helpful, empathetic summary that identifies patterns. Keep it under 40 w
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': 'Bearer ${process.env.EXPO_PUBLIC_GROQ_API_KEY}',
+                    'Authorization': `Bearer ${process.env.EXPO_PUBLIC_GROQ_API_KEY}`,
                 },
                 body: JSON.stringify({
                     model: 'llama-3.3-70b-versatile',
